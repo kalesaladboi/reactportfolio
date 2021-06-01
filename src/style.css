@@ -1,0 +1,65 @@
+:root {
+  --imperial-red: #e63946ff;
+  --honeydew: #f1faeeff;
+  --powder-blue: #a8dadcff;
+  --celadon-blue: #457b9dff;
+  --prussian-blue: #1d3557ff;
+  --white: #ffffff;
+  --dark-grey: #343a40;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: var(--dark-grey);
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  display: block;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 3rem;
+}
+a {
+  color: var(--imperial-red);
+  text-decoration: none;
+  border-bottom: 1px solid var(--imperial-red);
+}
+nav.navbar {
+  padding: 2rem 0;
+  color: var(--honeydew);
+  background: var(--prussian-blue);
+}
+.navbar-brand {
+  color: var(--honeydew);
+  font-size: 3rem;
+  font-weight: 800;
+  border-bottom: none;
+}
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-link {
+  color: var(--honeydew);
+  font-size: 1.5rem;
+  font-weight: 100;
+  border-bottom: 2px solid var(--prussian-blue);
+}
+.nav-link.active {
+  color: var(--celadon-blue);
+  border-color: var(--celadon-blue);
+}
+.nav-link:hover {
+  color: var(--celadon-blue);
+}
+.hero {
+  background: var(--prussian-blue);
+  min-height: 800px;
+  color: var(--honeydew);
+}
+.hero-content {
+  padding-top: 205px;
+}
